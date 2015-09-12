@@ -3,8 +3,8 @@ Shiacoin integration/staging tree
 
 http://www.ShiaCoin.org
 
-Copyright (c) 2009-2014 Bitcoin Developers
-Copyright (c) 2014-2015 Shiacoin Developers
+- Copyright (c) 2009-2014 Bitcoin Developers
+- Copyright (c) 2014-2015 Shiacoin Developers
 
 What is ShiaCoin?
 ------------------
