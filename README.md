@@ -23,6 +23,7 @@ We support the Wallets for the following:
  - Mac
  - (In Progress) Android
  - (In Progress) IOS
+ - (In Progress) ShiaCoin Lite Wallets (MultiBit Style Wallets) 
  
 for more information, as well as an immediately useable, binary version of
 the Shiacoin client sofware, see http://www.ShiaCoin.org
