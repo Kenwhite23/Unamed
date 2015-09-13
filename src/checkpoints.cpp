@@ -35,28 +35,17 @@ namespace Checkpoints
     // + Contains no strange transactions
     static MapCheckpoints mapCheckpoints =
             boost::assign::map_list_of
-        (    0, uint256("0xecba185817b726ef62e53afb14241a8095bd9613d2d3df679911029b83c98e5b"))
-        (    18, uint256("0x632aa100b8055344be4e765defd1a07a1e3d053eb67332c9a95045eb87b7f3ab"))
-        (    70, uint256("0x9f0d4db126647e607a14da83f89b103f0fb5f29c6447c1574a011f7204b6a02f"))
-        (   105, uint256("0xbf7bc864ecfb4803df34d1e05024654d9a65159c875f60fe07eeda2203ac734c"))
-        (   200, uint256("0x3ba4bd313ce1a76e519ebc60c3e82154561c65c4b11ea82de1b3b0cc93f6eebb"))
-        (299893, uint256("0xca07e64a675616af303ec911343b2473904334b043f8e972eb9dc03720995f01"))
-        (599787, uint256("0x464cef0fed8c75ce46b48d19b97d70eb919edcca51523c793b830db1a710167e"))
-        (1199646, uint256("0xce0e285eb16b6940dd7dd7b0fea58f3d93ffdfc7544ff1274ca5ff9496773903"))
-        (2399216, uint256("0x4720496d86f9fea0a100c678d76192f753ba8da8f9c3d41eb739e479fa8e5bda"))
-	(2899214, uint256("0x8652192d0905663bceed4c10d5759c2691a767768f1f80b30a9447cfa0978ba9"))
-	(3380762, uint256("0x85207e898babf569cf7d59f06d3bbfa80f4041e2747d4b401367380d0f3cc985"))
-	(3621535, uint256("0x0e69ac77ca6336a1d7faf5a37bbb68fe3305a601f1976cca35e9325bec9cd612"))
+        (    0, uint256("0x"))
 		
 		
         
         ;
     static const CCheckpointData data = {
          &mapCheckpoints,
-         1416303108, // * UNIX timestamp of last checkpoint block
-         4483343,    // * total number of transactions between genesis and last checkpoint
+         //1416303108, // * UNIX timestamp of last checkpoint block
+         //4483343,    // * total number of transactions between genesis and last checkpoint
                      //   (the tx=... number in the SetBestChain debug.log lines)
-         7000.0     // * estimated number of transactions per day after checkpoint
+         //7000.0     // * estimated number of transactions per day after checkpoint
      };
 
     const CCheckpointData &Checkpoints() {

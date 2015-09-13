@@ -35,7 +35,7 @@ CTxMemPool mempool;
 unsigned int nTransactionsUpdated = 0;
 
 map<uint256, CBlockIndex*> mapBlockIndex;
-uint256 hashGenesisBlock("0xecba185817b726ef62e53afb14241a8095bd9613d2d3df679911029b83c98e5b");
+uint256 hashGenesisBlock("0x");
 uint256 hashGenesisBlockMerkleRoot("0xba3827aaf56440074e5436db36421d3a38645bc0f1a7c378a48b7daf3c078256");
 
 static CBigNum bnProofOfWorkLimit(~uint256(0) >> 20); // Shiacoin: starting difficulty is 1 / 2^12
@@ -2779,11 +2779,11 @@ bool LoadBlockIndex()
 {
     if (fTestNet)
     {
-        pchMessageStart[0] = 0xfc;
-        pchMessageStart[1] = 0xc1;
-        pchMessageStart[2] = 0xb7;
+        pchMessageStart[0] = 0xa1;
+        pchMessageStart[1] = 0xb2;
+        pchMessageStart[2] = 0xc3;
         pchMessageStart[3] = 0xdc;
-        hashGenesisBlock = uint256("0x8bcdcbeea50bac7fcd0b639aa3c04457fc830551cce5edc170dc83c78a5f80bb");
+        hashGenesisBlock = uint256("0x");
     }
 
     //
@@ -2816,26 +2816,26 @@ bool InitBlockIndex() {
         //   vMerkleTree: 97ddfbbae6
 
         // Genesis block
-        const char* pszTimestamp = "Arsenal 3 Bristol Academy 0 Vital Football - Arsenal 05:41 Mon, 27 May 2013";
+        const char* pszTimestamp = "U.S., Chinese officials meet on cyber security issues: White House - Reuters Sun, 13 Sep 2015 ";
         CTransaction txNew;
         txNew.vin.resize(1);
         txNew.vout.resize(1);
         txNew.vin[0].scriptSig = CScript() << 486604799 << CBigNum(4) << vector<unsigned char>((const unsigned char*)pszTimestamp, (const unsigned char*)pszTimestamp + strlen(pszTimestamp));
         txNew.vout[0].nValue = 32 * COIN;
-        txNew.vout[0].scriptPubKey = CScript() << ParseHex("040184710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb4b10f4d4604fa08dce601aaf0f470216fe1b51850b4acf21b179c45070ac7b03a9") << OP_CHECKSIG;
+        txNew.vout[0].scriptPubKey = CScript() << ParseHex("049284710fa689ad5023690c80f3a49c8f13f8d45b8c857fbcbc8bc4a8e4d3eb7a10f4d4604fa08dce601aaf0f470216fe1b51850b4fbc21b179c45070ac7b03a9") << OP_CHECKSIG;
         CBlock block;
         block.vtx.push_back(txNew);
         block.hashPrevBlock = 0;
         block.hashMerkleRoot = block.BuildMerkleTree();
         block.nVersion = 1;
-        block.nTime    = 1369761817;
+        block.nTime    = 1442113173;
         block.nBits    = 0x1e0ffff0;
-        block.nNonce   = 128181112;
+        block.nNonce   = 0;
 
         if (fTestNet)
         {
-            block.nTime    = 1365711198;
-            block.nNonce   = 111794999;
+            block.nTime    = 1442113173;
+            block.nNonce   = 0;
         }
 
         //// debug print
@@ -2843,11 +2843,37 @@ bool InitBlockIndex() {
         printf("%s\n", hash.ToString().c_str());
         printf("%s\n", hashGenesisBlock.ToString().c_str());
         printf("%s\n", block.hashMerkleRoot.ToString().c_str());
-        assert(block.hashMerkleRoot == uint256("0xba3827aaf56440074e5436db36421d3a38645bc0f1a7c378a48b7daf3c078256"));
+        assert(block.hashMerkleRoot == uint256("0x"));
+		if (true && block.GetHash() != hashGenesisBlock)
+        {
+            printf("Searching for genesis block...\n");
+            // This will figure out a valid hash and Nonce if you're
+            // creating a different genesis block:
+            uint256 hashTarget = CBigNum().SetCompact(block.nBits).getuint256();
+            uint256 thash;
+            char scratchpad[SCRYPT_SCRATCHPAD_SIZE];
 
-        printf("hashGenesisBlock = %s\n", hashGenesisBlock.ToString().c_str());
-        printf("block.GetHash() = %s\n", block.GetHash().ToString().c_str());
-
+            loop
+            {
+                scrypt_1024_1_1_256_sp(BEGIN(block.nVersion), BEGIN(thash), scratchpad);
+                if (thash <= hashTarget)
+                    break;
+                if ((block.nNonce & 0xFFF) == 0)
+                {
+                    printf("nonce %08X: hash = %s (target = %s)\n", block.nNonce, thash.ToString().c_str(), hashTarget.ToString().c_str());
+                }
+                ++block.nNonce;
+                if (block.nNonce == 0)
+                {
+                    printf("NONCE WRAPPED, incrementing time\n");
+                    ++block.nTime;
+                }
+            }
+            printf("block.nTime = %u \n", block.nTime);
+            printf("block.nNonce = %u \n", block.nNonce);
+            printf("block.GetHash = %s\n", block.GetHash().ToString().c_str());
+            printf("hashGenesisBlock = %s\n", hashGenesisBlock.ToString().c_str());
+            }
         block.print();
         assert(hash == hashGenesisBlock);
 
@@ -3122,7 +3148,7 @@ bool static AlreadyHave(const CInv& inv)
 // The message start string is designed to be unlikely to occur in normal data.
 // The characters are rarely used upper ASCII, not valid as UTF-8, and produce
 // a large 4-byte int at any alignment.
-unsigned char pchMessageStart[4] = { 0xfb, 0xc0, 0xb6, 0xdb }; // Shiacoin: increase each by adding 2 to bitcoin's value.
+unsigned char pchMessageStart[4] = { 0xa2, 0xb2, 0xc2, 0xdb }; // Shiacoin: increase each by adding 2 to bitcoin's value.
 
 
 void static ProcessGetData(CNode* pfrom)
