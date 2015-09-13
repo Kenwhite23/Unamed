@@ -9,11 +9,13 @@ http://www.ShiaCoin.org
 What is ShiaCoin?
 ------------------
 Shiacoin is a lite version of Bitcoin using scrypt as a proof-of-work algorithm. 
+Its name and logo is derived as a Parody and Tribute to Shia Labeouf 
  - 3 minute block targets
  - subsidy halves in 420k blocks (~2 years)
  - ~42 million total coins
  - 50 coins per block
  - 480 blocks to retarget difficulty
+
  
 What Wallet Types do you have?
 -------------------------------
