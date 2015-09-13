@@ -1,4 +1,4 @@
-Name Fastcoin
+Name Shiacoin
 
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
@@ -6,8 +6,8 @@ SetCompressor /SOLID lzma
 # General Symbol Definitions
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION 0.8.7.2
-!define COMPANY "Fastcoin project"
-!define URL http://www.fastcoin.org/
+!define COMPANY "Shiacoin project"
+!define URL http://www.Shiacoin.org/
 
 # MUI Symbol Definitions
 !define MUI_ICON "../share/pixmaps/bitcoin.ico"
@@ -19,8 +19,8 @@ SetCompressor /SOLID lzma
 !define MUI_STARTMENUPAGE_REGISTRY_ROOT HKLM
 !define MUI_STARTMENUPAGE_REGISTRY_KEY ${REGKEY}
 !define MUI_STARTMENUPAGE_REGISTRY_VALUENAME StartMenuGroup
-!define MUI_STARTMENUPAGE_DEFAULTFOLDER Fastcoin
-!define MUI_FINISHPAGE_RUN $INSTDIR\fastcoin-qt.exe
+!define MUI_STARTMENUPAGE_DEFAULTFOLDER Shiacoin
+!define MUI_FINISHPAGE_RUN $INSTDIR\Shiacoin-qt.exe
 !define MUI_UNICON "${NSISDIR}\Contrib\Graphics\Icons\modern-uninstall.ico"
 !define MUI_UNWELCOMEFINISHPAGE_BITMAP "../share/pixmaps/nsis-wizard.bmp"
 !define MUI_UNFINISHPAGE_NOAUTOCLOSE
@@ -51,14 +51,14 @@ LangString DESC_SecBootstrap ${LANG_ENGLISH} "Downloads and installs bootstrap.d
 !insertmacro MUI_LANGUAGE English
 
 # Installer attributes
-OutFile fastcoin-${VERSION}-win32-setup.exe
-InstallDir $PROGRAMFILES\Fastcoin
+OutFile Shiacoin-${VERSION}-win32-setup.exe
+InstallDir $PROGRAMFILES\Shiacoin
 CRCCheck on
 XPStyle on
 BrandingText " "
 ShowInstDetails show
 VIProductVersion ${VERSION}
-VIAddVersionKey ProductName Fastcoin
+VIAddVersionKey ProductName Shiacoin
 VIAddVersionKey ProductVersion "${VERSION}"
 VIAddVersionKey CompanyName "${COMPANY}"
 VIAddVersionKey CompanyWebsite "${URL}"
@@ -72,7 +72,7 @@ ShowUninstDetails show
 Section -Main SEC0000
     SetOutPath $INSTDIR
     SetOverwrite on
-    File ../release/fastcoin-qt.exe
+    File ../release/Shiacoin-qt.exe
     File /oname=COPYING.txt ../COPYING
     File /oname=readme.txt ../doc/README_windows.txt
     SetOutPath $INSTDIR\daemon
@@ -83,35 +83,35 @@ Section -Main SEC0000
     WriteRegStr HKCU "${REGKEY}\Components" Main 1
 
     # Remove old wxwidgets-based-bitcoin executable and locales:
-    Delete /REBOOTOK $INSTDIR\fastcoin.exe
+    Delete /REBOOTOK $INSTDIR\Shiacoin.exe
     RMDir /r /REBOOTOK $INSTDIR\locale
 SectionEnd
 
 Section /o "Download bootstrap" SecBootstrap
 
-  CreateDirectory "$APPDATA\Fastcoin"
-  SetOutPath "$APPDATA\Fastcoin"
-  DetailPrint "Downloading http://edge.fastcoin.ws/bootstrap.exe"
-  NSISdl::download /TIMEOUT=30000 http://edge.fastcoin.ws/bootstrap.exe "$APPDATA\Fastcoin\bootstrap.exe"
+  CreateDirectory "$APPDATA\Shiacoin"
+  SetOutPath "$APPDATA\Shiacoin"
+  DetailPrint "Downloading http://edge.Shiacoin.ws/bootstrap.exe"
+  NSISdl::download /TIMEOUT=30000 http://edge.Shiacoin.ws/bootstrap.exe "$APPDATA\Shiacoin\bootstrap.exe"
   
   Pop $0
   StrCmp $0 success success
     SetDetailsView show
-    DetailPrint "download failed from http://edge.fastcoin.ws/bootstrap.xz $0"
+    DetailPrint "download failed from http://edge.Shiacoin.ws/bootstrap.xz $0"
   success:
 
   ClearErrors
   
   DetailPrint "Extracting bootstrap.dat......."
-  nsExec::ExecToLog '"$APPDATA\Fastcoin\bootstrap.exe" -o"$APPDATA\Fastcoin" -y'
-  Rename "$APPDATA\Fastcoin\bootstrap" "$APPDATA\Fastcoin\bootstrap.dat" 
+  nsExec::ExecToLog '"$APPDATA\Shiacoin\bootstrap.exe" -o"$APPDATA\Shiacoin" -y'
+  Rename "$APPDATA\Shiacoin\bootstrap" "$APPDATA\Shiacoin\bootstrap.dat" 
   ClearErrors
 
   DetailPrint "Removing existing blockchain files"
-  RMDir /r "$APPDATA\Fastcoin\blocks"
-  RMDir /r "$APPDATA\Fastcoin\chainstate"
+  RMDir /r "$APPDATA\Shiacoin\blocks"
+  RMDir /r "$APPDATA\Shiacoin\chainstate"
 
-  Delete "$APPDATA\Fastcoin\bootstrap.exe"
+  Delete "$APPDATA\Shiacoin\bootstrap.exe"
 
   DetailPrint "Done"
 SectionEnd
@@ -122,8 +122,8 @@ Section -post SEC0001
     WriteUninstaller $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_BEGIN Application
     CreateDirectory $SMPROGRAMS\$StartMenuGroup
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Fastcoin.lnk" $INSTDIR\fastcoin-qt.exe
-    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall Fastcoin.lnk" $INSTDIR\uninstall.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Shiacoin.lnk" $INSTDIR\Shiacoin-qt.exe
+    CreateShortcut "$SMPROGRAMS\$StartMenuGroup\Uninstall Shiacoin.lnk" $INSTDIR\uninstall.exe
     !insertmacro MUI_STARTMENU_WRITE_END
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayName "$(^Name)"
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" DisplayVersion "${VERSION}"
@@ -133,10 +133,10 @@ Section -post SEC0001
     WriteRegStr HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" UninstallString $INSTDIR\uninstall.exe
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoModify 1
     WriteRegDWORD HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)" NoRepair 1
-    WriteRegStr HKCR "fastcoin" "URL Protocol" ""
-    WriteRegStr HKCR "fastcoin" "" "URL:Fastcoin"
-    WriteRegStr HKCR "fastcoin\DefaultIcon" "" $INSTDIR\fastcoin-qt.exe
-    WriteRegStr HKCR "fastcoin\shell\open\command" "" '"$INSTDIR\fastcoin-qt.exe" "%1"'
+    WriteRegStr HKCR "Shiacoin" "URL Protocol" ""
+    WriteRegStr HKCR "Shiacoin" "" "URL:Shiacoin"
+    WriteRegStr HKCR "Shiacoin\DefaultIcon" "" $INSTDIR\Shiacoin-qt.exe
+    WriteRegStr HKCR "Shiacoin\shell\open\command" "" '"$INSTDIR\Shiacoin-qt.exe" "%1"'
 SectionEnd
 
 # Macro for selecting uninstaller sections
@@ -154,7 +154,7 @@ done${UNSECTION_ID}:
 
 # Uninstaller sections
 Section /o -un.Main UNSEC0000
-    Delete /REBOOTOK $INSTDIR\fastcoin-qt.exe
+    Delete /REBOOTOK $INSTDIR\Shiacoin-qt.exe
     Delete /REBOOTOK $INSTDIR\COPYING.txt
     Delete /REBOOTOK $INSTDIR\readme.txt
     RMDir /r /REBOOTOK $INSTDIR\daemon
@@ -164,9 +164,9 @@ SectionEnd
 
 Section -un.post UNSEC0001
     DeleteRegKey HKCU "SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\$(^Name)"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall Fastcoin.lnk"
-    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Fastcoin.lnk"
-    Delete /REBOOTOK "$SMSTARTUP\Fastcoin.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Uninstall Shiacoin.lnk"
+    Delete /REBOOTOK "$SMPROGRAMS\$StartMenuGroup\Shiacoin.lnk"
+    Delete /REBOOTOK "$SMSTARTUP\Shiacoin.lnk"
     Delete /REBOOTOK $INSTDIR\uninstall.exe
     Delete /REBOOTOK $INSTDIR\debug.log
     Delete /REBOOTOK $INSTDIR\db.log
@@ -174,7 +174,7 @@ Section -un.post UNSEC0001
     DeleteRegValue HKCU "${REGKEY}" Path
     DeleteRegKey /IfEmpty HKCU "${REGKEY}\Components"
     DeleteRegKey /IfEmpty HKCU "${REGKEY}"
-    DeleteRegKey HKCR "fastcoin"
+    DeleteRegKey HKCR "Shiacoin"
     RmDir /REBOOTOK $SMPROGRAMS\$StartMenuGroup
     RmDir /REBOOTOK $INSTDIR
     Push $R0

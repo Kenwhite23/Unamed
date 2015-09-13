@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Fastcoin</source>
-        <translation>Apie Fastcoin</translation>
+        <source>About Shiacoin</source>
+        <translation>Apie Shiacoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Fastcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Fastcoin&lt;/b&gt; versija</translation>
+        <source>&lt;b&gt;Shiacoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Shiacoin&lt;/b&gt; versija</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -33,7 +33,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+0"/>
-        <source>The Fastcoin developers</source>
+        <source>The Shiacoin developers</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -66,8 +66,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Fastcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
-        <translation>Tai yra jūsų Fastcoin adresai mokėjimų gavimui. Galite duoti skirtingus adresus atskiriems siuntėjams, kad galėtumėte sekti, kas jums moka.</translation>
+        <source>These are your Shiacoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <translation>Tai yra jūsų Shiacoin adresai mokėjimų gavimui. Galite duoti skirtingus adresus atskiriems siuntėjams, kad galėtumėte sekti, kas jums moka.</translation>
     </message>
     <message>
         <location filename="../forms/addressbookpage.ui" line="+14"/>
@@ -81,8 +81,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Fastcoin address</source>
-        <translation>Pasirašykite žinutę, kad įrodytume, jog esate Fastcoin adreso savininkas</translation>
+        <source>Sign a message to prove you own a Shiacoin address</source>
+        <translation>Pasirašykite žinutę, kad įrodytume, jog esate Shiacoin adreso savininkas</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -106,8 +106,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Fastcoin address</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Fastcoin adresas</translation>
+        <source>Verify a message to ensure it was signed with a specified Shiacoin address</source>
+        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Shiacoin adresas</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -121,7 +121,7 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Fastcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Shiacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -274,8 +274,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="-56"/>
-        <source>Fastcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your fastcoins from being stolen by malware infecting your computer.</source>
-        <translation>Fastcoin dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas negali pilnai apsaugoti fastcoinų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
+        <source>Shiacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your fastcoins from being stolen by malware infecting your computer.</source>
+        <translation>Shiacoin dabar užsidarys šifravimo proceso pabaigai. Atminkite, kad piniginės šifravimas negali pilnai apsaugoti fastcoinų vagysčių kai tinkle esančios kenkėjiškos programos patenka į jūsų kompiuterį.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -373,8 +373,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Fastcoin</source>
-        <translation>Rodyti informaciją apie Fastcoin</translation>
+        <source>Show information about Shiacoin</source>
+        <translation>Rodyti informaciją apie Shiacoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -418,13 +418,13 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Fastcoin address</source>
-        <translation>Siųsti monetas Fastcoin adresui</translation>
+        <source>Send coins to a Shiacoin address</source>
+        <translation>Siųsti monetas Shiacoin adresui</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Fastcoin</source>
-        <translation>Keisti fastcoin konfigūracijos galimybes</translation>
+        <source>Modify configuration options for Shiacoin</source>
+        <translation>Keisti Shiacoin konfigūracijos galimybes</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -454,8 +454,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Fastcoin</source>
-        <translation>Fastcoin</translation>
+        <source>Shiacoin</source>
+        <translation>Shiacoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -479,8 +479,8 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Fastcoin</source>
-        <translation>&amp;Apie Fastcoin</translation>
+        <source>&amp;About Shiacoin</source>
+        <translation>&amp;Apie Shiacoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -499,12 +499,12 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Fastcoin addresses to prove you own them</source>
+        <source>Sign messages with your Shiacoin addresses to prove you own them</source>
         <translation type="unfinished"/>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Fastcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Shiacoin addresses</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -535,13 +535,13 @@ Platinama pagal MIT/X11 licenciją, kurią rasite faile COPYING arba http://www.
     </message>
     <message>
         <location line="+47"/>
-        <source>Fastcoin client</source>
-        <translation>Fastcoin klientas</translation>
+        <source>Shiacoin client</source>
+        <translation>Shiacoin klientas</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Fastcoin network</source>
-        <translation><numerusform>%n Fastcoin tinklo aktyvus ryšys</numerusform><numerusform>%n Fastcoin tinklo aktyvūs ryšiai</numerusform><numerusform>%n Fastcoin tinklo aktyvūs ryšiai</numerusform></translation>
+        <source>%n active connection(s) to Shiacoin network</source>
+        <translation><numerusform>%n Shiacoin tinklo aktyvus ryšys</numerusform><numerusform>%n Shiacoin tinklo aktyvūs ryšiai</numerusform><numerusform>%n Shiacoin tinklo aktyvūs ryšiai</numerusform></translation>
     </message>
     <message>
         <location line="+22"/>
@@ -654,7 +654,7 @@ Adresas: %4</translation>
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Fastcoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Shiacoin address or malformed URI parameters.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -669,7 +669,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Fastcoin can no longer continue safely and will quit.</source>
+        <source>A fatal error occurred. Shiacoin can no longer continue safely and will quit.</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -735,8 +735,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Fastcoin address.</source>
-        <translation>Įvestas adresas „%1“ nėra galiojantis Fastcoin adresas.</translation>
+        <source>The entered address &quot;%1&quot; is not a valid Shiacoin address.</source>
+        <translation>Įvestas adresas „%1“ nėra galiojantis Shiacoin adresas.</translation>
     </message>
     <message>
         <location line="+10"/>
@@ -754,8 +754,8 @@ Adresas: %4</translation>
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Fastcoin-Qt</source>
-        <translation>Fastcoin-Qt</translation>
+        <source>Shiacoin-Qt</source>
+        <translation>Shiacoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -817,13 +817,13 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Fastcoin after logging in to the system.</source>
+        <source>Automatically start Shiacoin after logging in to the system.</source>
         <translation>Automatiškai paleisti Bitkoin programą įjungus sistemą.</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Fastcoin on system login</source>
-        <translation>&amp;Paleisti Fastcoin programą su window sistemos paleidimu</translation>
+        <source>&amp;Start Shiacoin on system login</source>
+        <translation>&amp;Paleisti Shiacoin programą su window sistemos paleidimu</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -842,8 +842,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Fastcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Automatiškai atidaryti Fastcoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
+        <source>Automatically open the Shiacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Automatiškai atidaryti Shiacoin kliento prievadą maršrutizatoriuje. Tai veikia tik tada, kai jūsų maršrutizatorius palaiko UPnP ir ji įjungta.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -852,7 +852,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Fastcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <source>Connect to the Shiacoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
         <translation>Jungtis į Bitkoin tinklą per  socks proxy (pvz. jungiantis per Tor)</translation>
     </message>
     <message>
@@ -927,8 +927,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Fastcoin.</source>
-        <translation>Čia gali būti nustatyta naudotojo sąsajos kalba. Šis nustatymas įsigalios iš naujo paleidus Fastcoin.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Shiacoin.</source>
+        <translation>Čia gali būti nustatyta naudotojo sąsajos kalba. Šis nustatymas įsigalios iš naujo paleidus Shiacoin.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -942,7 +942,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Fastcoin addresses in the transaction list or not.</source>
+        <source>Whether to show Shiacoin addresses in the transaction list or not.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -994,7 +994,7 @@ Adresas: %4</translation>
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Fastcoin.</source>
+        <source>This setting will take effect after restarting Shiacoin.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1013,7 +1013,7 @@ Adresas: %4</translation>
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fastcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Shiacoin network after a connection is established, but this process has not completed yet.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1067,7 +1067,7 @@ Adresas: %4</translation>
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start fastcoin: click-to-pay handler</source>
+        <source>Cannot start Shiacoin: click-to-pay handler</source>
         <translation type="unfinished"/>
     </message>
 </context>
@@ -1217,7 +1217,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Fastcoin-Qt help message to get a list with possible Fastcoin command-line options.</source>
+        <source>Show the Shiacoin-Qt help message to get a list with possible Shiacoin command-line options.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1237,13 +1237,13 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="-104"/>
-        <source>Fastcoin - Debug window</source>
-        <translation>Fastcoin - Derinimo langas</translation>
+        <source>Shiacoin - Debug window</source>
+        <translation>Shiacoin - Derinimo langas</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Fastcoin Core</source>
-        <translation>Fastcoin branduolys</translation>
+        <source>Shiacoin Core</source>
+        <translation>Shiacoin branduolys</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1252,7 +1252,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Fastcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Shiacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1262,7 +1262,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Fastcoin RPC console.</source>
+        <source>Welcome to the Shiacoin RPC console.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -1446,7 +1446,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Fastcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>Enter a Shiacoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>Įveskite bitkoinų adresą (pvz. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
@@ -1511,7 +1511,7 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Fastcoin address</source>
+        <source>Sign the message to prove you own this Shiacoin address</source>
         <translation>Registruotis žinute įrodymuii, kad turite šį adresą</translation>
     </message>
     <message>
@@ -1547,8 +1547,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Fastcoin address</source>
-        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Fastcoin adresas</translation>
+        <source>Verify the message to ensure it was signed with the specified Shiacoin address</source>
+        <translation>Patikrinkite žinutę, jog įsitikintumėte, kad ją pasirašė nurodytas Shiacoin adresas</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1563,7 +1563,7 @@ Adresas: %4</translation>
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Fastcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>Enter a Shiacoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>Įveskite bitkoinų adresą (pvz. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
@@ -1573,8 +1573,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Fastcoin signature</source>
-        <translation>Įveskite Fastcoin parašą</translation>
+        <source>Enter Shiacoin signature</source>
+        <translation>Įveskite Shiacoin parašą</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1647,7 +1647,7 @@ Adresas: %4</translation>
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Fastcoin developers</source>
+        <source>The Shiacoin developers</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2185,8 +2185,8 @@ Adresas: %4</translation>
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Fastcoin version</source>
-        <translation>Fastcoin versija</translation>
+        <source>Shiacoin version</source>
+        <translation>Shiacoin versija</translation>
     </message>
     <message>
         <location line="+102"/>
@@ -2215,8 +2215,8 @@ Adresas: %4</translation>
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: fastcoin.conf)</source>
-        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: fastcoin.conf)</translation>
+        <source>Specify configuration file (default: Shiacoin.conf)</source>
+        <translation>Nurodyti konfigūracijos failą (pagal nutylėjimąt: Shiacoin.conf)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2304,7 +2304,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Fastcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Shiacoin Alert&quot; admin@foo.com
 </source>
         <translation type="unfinished"/>
     </message>
@@ -2320,7 +2320,7 @@ for example: alertnotify=echo %%s | mail -s &quot;Fastcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Fastcoin is probably already running.</source>
+        <source>Cannot obtain a lock on data directory %s. Shiacoin is probably already running.</source>
         <translation type="unfinished"/>
     </message>
     <message>
@@ -2365,8 +2365,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Fastcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Fastcoin will not work properly.</source>
-        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas Fastcoin, veiks netinkamai.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Shiacoin will not work properly.</source>
+        <translation>Įspėjimas: Patikrinkite, kad kompiuterio data ir laikas yra teisingi.Jei Jūsų laikrodis neteisingai nustatytas Shiacoin, veiks netinkamai.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2615,8 +2615,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Fastcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Fastcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL opcijos (žr.e Fastcoin Wiki for SSL setup instructions)</translation>
+        <source>SSL options: (see the Shiacoin Wiki for SSL setup instructions)</source>
+        <translation>SSL opcijos (žr.e Shiacoin Wiki for SSL setup instructions)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2805,13 +2805,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Fastcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Fastcoin</source>
-        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės Fastcoin versijos</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Shiacoin</source>
+        <translation> wallet.dat pakrovimo klaida,  wallet.dat reikalauja naujasnės Shiacoin versijos</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Fastcoin to complete</source>
-        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite Fastcoin</translation>
+        <source>Wallet needed to be rewritten: restart Shiacoin to complete</source>
+        <translation>Piniginė turi būti prrašyta: įvykdymui perkraukite Shiacoin</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2870,8 +2870,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Fastcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Fastcoin is probably already running.</source>
-        <translation>Nepavyko susieti šiame kompiuteryje prievado %s. Fastcoin tikriausiai jau veikia.</translation>
+        <source>Unable to bind to %s on this computer. Shiacoin is probably already running.</source>
+        <translation>Nepavyko susieti šiame kompiuteryje prievado %s. Shiacoin tikriausiai jau veikia.</translation>
     </message>
     <message>
         <location line="+64"/>

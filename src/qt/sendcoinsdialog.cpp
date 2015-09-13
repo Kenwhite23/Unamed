@@ -36,7 +36,7 @@ SendCoinsDialog::SendCoinsDialog(QWidget *parent) :
 #endif
 #if QT_VERSION >= 0x040700
     /* Do not move this to the XML file, Qt before 4.7 will choke on it */
-    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a Fastcoin address (e.g. fpQXGrv3ChSdG9iurnP58wUUmZpqJXRgnN)"));
+    ui->lineEditCoinControlChange->setPlaceholderText(tr("Enter a Shiacoin address (e.g. fpQXGrv3ChSdG9iurnP58wUUmZpqJXRgnN)"));
 #endif
 
     addEntry();

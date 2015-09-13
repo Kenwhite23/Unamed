@@ -4,13 +4,13 @@
     <name>AboutDialog</name>
     <message>
         <location filename="../forms/aboutdialog.ui" line="+14"/>
-        <source>About Fastcoin</source>
-        <translation>Over Fastcoin</translation>
+        <source>About Shiacoin</source>
+        <translation>Over Shiacoin</translation>
     </message>
     <message>
         <location line="+39"/>
-        <source>&lt;b&gt;Fastcoin&lt;/b&gt; version</source>
-        <translation>&lt;b&gt;Fastcoin&lt;/b&gt; versie</translation>
+        <source>&lt;b&gt;Shiacoin&lt;/b&gt; version</source>
+        <translation>&lt;b&gt;Shiacoin&lt;/b&gt; versie</translation>
     </message>
     <message>
         <location line="+57"/>
@@ -34,8 +34,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+0"/>
-        <source>The Fastcoin developers</source>
-        <translation>De Fastcoin-ontwikkelaars</translation>
+        <source>The Shiacoin developers</source>
+        <translation>De Shiacoin-ontwikkelaars</translation>
     </message>
 </context>
 <context>
@@ -67,7 +67,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="+63"/>
-        <source>These are your Fastcoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
+        <source>These are your Shiacoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</source>
         <translation>Dit zijn uw Fastcoinadressen om betalingen mee te ontvangen. U kunt er voor kiezen om een uniek adres aan te maken voor elke afzender. Op deze manier kunt u bijhouden wie al aan u betaald heeft.</translation>
     </message>
     <message>
@@ -82,7 +82,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+11"/>
-        <source>Sign a message to prove you own a Fastcoin address</source>
+        <source>Sign a message to prove you own a Shiacoin address</source>
         <translation>Onderteken een bericht om te bewijzen dat u een bepaald Fastcoinadres bezit</translation>
     </message>
     <message>
@@ -107,7 +107,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-44"/>
-        <source>Verify a message to ensure it was signed with a specified Fastcoin address</source>
+        <source>Verify a message to ensure it was signed with a specified Shiacoin address</source>
         <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Fastcoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
@@ -122,7 +122,7 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location filename="../addressbookpage.cpp" line="-5"/>
-        <source>These are your Fastcoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
+        <source>These are your Shiacoin addresses for sending payments. Always check the amount and the receiving address before sending coins.</source>
         <translation>Dit zijn uw Fastcoinadressen om betalingen mee te verzenden. Check altijd het bedrag en het ontvangende adres voordat u uw fastcoins verzendt.</translation>
     </message>
     <message>
@@ -275,8 +275,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-56"/>
-        <source>Fastcoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your fastcoins from being stolen by malware infecting your computer.</source>
-        <translation>Fastcoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw fastcoins stelen.</translation>
+        <source>Shiacoin will close now to finish the encryption process. Remember that encrypting your wallet cannot fully protect your fastcoins from being stolen by malware infecting your computer.</source>
+        <translation>Shiacoin zal nu afsluiten om het versleutelingsproces te voltooien. Onthoud dat het versleutelen van uw portemonnee u niet volledig kan beschermen: Malware kan uw computer infecteren en uw fastcoins stelen.</translation>
     </message>
     <message>
         <location line="+13"/>
@@ -374,8 +374,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+4"/>
-        <source>Show information about Fastcoin</source>
-        <translation>Laat informatie zien over Fastcoin</translation>
+        <source>Show information about Shiacoin</source>
+        <translation>Laat informatie zien over Shiacoin</translation>
     </message>
     <message>
         <location line="+2"/>
@@ -419,13 +419,13 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="-347"/>
-        <source>Send coins to a Fastcoin address</source>
+        <source>Send coins to a Shiacoin address</source>
         <translation>Verstuur munten naar een Fastcoinadres</translation>
     </message>
     <message>
         <location line="+49"/>
-        <source>Modify configuration options for Fastcoin</source>
-        <translation>Wijzig instellingen van Fastcoin</translation>
+        <source>Modify configuration options for Shiacoin</source>
+        <translation>Wijzig instellingen van Shiacoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -455,8 +455,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     <message>
         <location line="-165"/>
         <location line="+530"/>
-        <source>Fastcoin</source>
-        <translation>Fastcoin</translation>
+        <source>Shiacoin</source>
+        <translation>Shiacoin</translation>
     </message>
     <message>
         <location line="-530"/>
@@ -480,8 +480,8 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+22"/>
-        <source>&amp;About Fastcoin</source>
-        <translation>&amp;Over Fastcoin</translation>
+        <source>&amp;About Shiacoin</source>
+        <translation>&amp;Over Shiacoin</translation>
     </message>
     <message>
         <location line="+9"/>
@@ -500,12 +500,12 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+7"/>
-        <source>Sign messages with your Fastcoin addresses to prove you own them</source>
+        <source>Sign messages with your Shiacoin addresses to prove you own them</source>
         <translation>Onderteken berichten met uw Fastcoinadressen om te bewijzen dat u deze adressen bezit</translation>
     </message>
     <message>
         <location line="+2"/>
-        <source>Verify messages to ensure they were signed with specified Fastcoin addresses</source>
+        <source>Verify messages to ensure they were signed with specified Shiacoin addresses</source>
         <translation>Verifiëer handtekeningen om zeker te zijn dat de berichten zijn ondertekend met de gespecificeerde Fastcoinadressen</translation>
     </message>
     <message>
@@ -536,12 +536,12 @@ Dit product bevat software ontwikkeld door het OpenSSL Project voor gebruik in d
     </message>
     <message>
         <location line="+47"/>
-        <source>Fastcoin client</source>
-        <translation>Fastcoin client</translation>
+        <source>Shiacoin client</source>
+        <translation>Shiacoin client</translation>
     </message>
     <message numerus="yes">
         <location line="+141"/>
-        <source>%n active connection(s) to Fastcoin network</source>
+        <source>%n active connection(s) to Shiacoin network</source>
         <translation><numerusform>%n actieve connectie naar Fastcoinnetwerk</numerusform><numerusform>%n actieve connecties naar Fastcoinnetwerk</numerusform></translation>
     </message>
     <message>
@@ -656,7 +656,7 @@ Adres: %4
     <message>
         <location line="-23"/>
         <location line="+23"/>
-        <source>URI can not be parsed! This can be caused by an invalid Fastcoin address or malformed URI parameters.</source>
+        <source>URI can not be parsed! This can be caused by an invalid Shiacoin address or malformed URI parameters.</source>
         <translation>URI kan niet worden geïnterpreteerd. Dit kan komen door een ongeldig Fastcoinadres of misvormde URI-parameters.</translation>
     </message>
     <message>
@@ -671,8 +671,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../bitcoin.cpp" line="+111"/>
-        <source>A fatal error occurred. Fastcoin can no longer continue safely and will quit.</source>
-        <translation>Er is een fatale fout opgetreden. Fastcoin kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
+        <source>A fatal error occurred. Shiacoin can no longer continue safely and will quit.</source>
+        <translation>Er is een fatale fout opgetreden. Shiacoin kan niet meer veilig doorgaan en zal nu afgesloten worden.</translation>
     </message>
 </context>
 <context>
@@ -737,7 +737,7 @@ Adres: %4
     </message>
     <message>
         <location line="-5"/>
-        <source>The entered address &quot;%1&quot; is not a valid Fastcoin address.</source>
+        <source>The entered address &quot;%1&quot; is not a valid Shiacoin address.</source>
         <translation>Het opgegeven adres &quot;%1&quot; is een ongeldig Fastcoinadres</translation>
     </message>
     <message>
@@ -756,8 +756,8 @@ Adres: %4
     <message>
         <location filename="../guiutil.cpp" line="+424"/>
         <location line="+12"/>
-        <source>Fastcoin-Qt</source>
-        <translation>Fastcoin-Qt</translation>
+        <source>Shiacoin-Qt</source>
+        <translation>Shiacoin-Qt</translation>
     </message>
     <message>
         <location line="-12"/>
@@ -819,13 +819,13 @@ Adres: %4
     </message>
     <message>
         <location line="+31"/>
-        <source>Automatically start Fastcoin after logging in to the system.</source>
-        <translation>Start Fastcoin automatisch na inloggen in het systeem</translation>
+        <source>Automatically start Shiacoin after logging in to the system.</source>
+        <translation>Start Shiacoin automatisch na inloggen in het systeem</translation>
     </message>
     <message>
         <location line="+3"/>
-        <source>&amp;Start Fastcoin on system login</source>
-        <translation>Start &amp;Fastcoin bij het inloggen in het systeem</translation>
+        <source>&amp;Start Shiacoin on system login</source>
+        <translation>Start &amp;Shiacoin bij het inloggen in het systeem</translation>
     </message>
     <message>
         <location line="+35"/>
@@ -844,8 +844,8 @@ Adres: %4
     </message>
     <message>
         <location line="+6"/>
-        <source>Automatically open the Fastcoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
-        <translation>Open de Fastcoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
+        <source>Automatically open the Shiacoin client port on the router. This only works when your router supports UPnP and it is enabled.</source>
+        <translation>Open de Shiacoin-poort automatisch op de router. Dit werkt alleen als de router UPnP ondersteunt en het aanstaat.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -854,8 +854,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Connect to the Fastcoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
-        <translation>Verbind met het Fastcoin-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden)</translation>
+        <source>Connect to the Shiacoin network through a SOCKS proxy (e.g. when connecting through Tor).</source>
+        <translation>Verbind met het Shiacoin-netwerk via een SOCKS-proxy (bijv. wanneer u via Tor wilt verbinden)</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -929,8 +929,8 @@ Adres: %4
     </message>
     <message>
         <location line="+13"/>
-        <source>The user interface language can be set here. This setting will take effect after restarting Fastcoin.</source>
-        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Fastcoin herstart wordt.</translation>
+        <source>The user interface language can be set here. This setting will take effect after restarting Shiacoin.</source>
+        <translation>De taal van de gebruikersinterface kan hier ingesteld worden. Deze instelling zal pas van kracht worden nadat Shiacoin herstart wordt.</translation>
     </message>
     <message>
         <location line="+11"/>
@@ -944,7 +944,7 @@ Adres: %4
     </message>
     <message>
         <location line="+9"/>
-        <source>Whether to show Fastcoin addresses in the transaction list or not.</source>
+        <source>Whether to show Shiacoin addresses in the transaction list or not.</source>
         <translation>Of Fastcoinadressen getoond worden in de transactielijst</translation>
     </message>
     <message>
@@ -996,8 +996,8 @@ Adres: %4
     <message>
         <location line="-9"/>
         <location line="+9"/>
-        <source>This setting will take effect after restarting Fastcoin.</source>
-        <translation>Deze instelling zal pas van kracht worden na het herstarten van Fastcoin.</translation>
+        <source>This setting will take effect after restarting Shiacoin.</source>
+        <translation>Deze instelling zal pas van kracht worden na het herstarten van Shiacoin.</translation>
     </message>
     <message>
         <location line="+29"/>
@@ -1015,7 +1015,7 @@ Adres: %4
     <message>
         <location line="+50"/>
         <location line="+166"/>
-        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Fastcoin network after a connection is established, but this process has not completed yet.</source>
+        <source>The displayed information may be out of date. Your wallet automatically synchronizes with the Shiacoin network after a connection is established, but this process has not completed yet.</source>
         <translation>De weergegeven informatie kan verouderd zijn. Uw portemonnee synchroniseert automaticsh met het Fastcoinnetwerk nadat een verbinding is gelegd, maar dit proces is nog niet voltooid.</translation>
     </message>
     <message>
@@ -1069,8 +1069,8 @@ Adres: %4
     <name>PaymentServer</name>
     <message>
         <location filename="../paymentserver.cpp" line="+107"/>
-        <source>Cannot start fastcoin: click-to-pay handler</source>
-        <translation>Kan fastcoin niet starten: click-to-pay handler</translation>
+        <source>Cannot start Shiacoin: click-to-pay handler</source>
+        <translation>Kan Shiacoin niet starten: click-to-pay handler</translation>
     </message>
 </context>
 <context>
@@ -1219,8 +1219,8 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Show the Fastcoin-Qt help message to get a list with possible Fastcoin command-line options.</source>
-        <translation>Toon het FastcoinQt-hulpbericht voor een lijst met mogelijke Fastcoin commandoregel-opties.</translation>
+        <source>Show the Shiacoin-Qt help message to get a list with possible Shiacoin command-line options.</source>
+        <translation>Toon het FastcoinQt-hulpbericht voor een lijst met mogelijke Shiacoin commandoregel-opties.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -1239,13 +1239,13 @@ Adres: %4
     </message>
     <message>
         <location line="-104"/>
-        <source>Fastcoin - Debug window</source>
-        <translation>Fastcoin-debugscherm</translation>
+        <source>Shiacoin - Debug window</source>
+        <translation>Shiacoin-debugscherm</translation>
     </message>
     <message>
         <location line="+25"/>
-        <source>Fastcoin Core</source>
-        <translation>Fastcoin Kern</translation>
+        <source>Shiacoin Core</source>
+        <translation>Shiacoin Kern</translation>
     </message>
     <message>
         <location line="+279"/>
@@ -1254,7 +1254,7 @@ Adres: %4
     </message>
     <message>
         <location line="+7"/>
-        <source>Open the Fastcoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
+        <source>Open the Shiacoin debug log file from the current data directory. This can take a few seconds for large log files.</source>
         <translation>Open het Fastcoindebug-logbestand van de huidige datamap. Dit kan een aantal seconden duren voor grote logbestanden.</translation>
     </message>
     <message>
@@ -1264,8 +1264,8 @@ Adres: %4
     </message>
     <message>
         <location filename="../rpcconsole.cpp" line="-30"/>
-        <source>Welcome to the Fastcoin RPC console.</source>
-        <translation>Welkom bij de Fastcoin RPC-console.</translation>
+        <source>Welcome to the Shiacoin RPC console.</source>
+        <translation>Welkom bij de Shiacoin RPC-console.</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -1448,7 +1448,7 @@ Adres: %4
     </message>
     <message>
         <location filename="../sendcoinsentry.cpp" line="+1"/>
-        <source>Enter a Fastcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>Enter a Shiacoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>Vul een Fastcoinadres in (bijv. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
 </context>
@@ -1513,7 +1513,7 @@ Adres: %4
     </message>
     <message>
         <location line="+21"/>
-        <source>Sign the message to prove you own this Fastcoin address</source>
+        <source>Sign the message to prove you own this Shiacoin address</source>
         <translation>Onderteken een bericht om te bewijzen dat u een bepaald Fastcoinadres bezit</translation>
     </message>
     <message>
@@ -1549,7 +1549,7 @@ Adres: %4
     </message>
     <message>
         <location line="+40"/>
-        <source>Verify the message to ensure it was signed with the specified Fastcoin address</source>
+        <source>Verify the message to ensure it was signed with the specified Shiacoin address</source>
         <translation>Controleer een bericht om te verifiëren dat het gespecificeerde Fastcoinadres het bericht heeft ondertekend.</translation>
     </message>
     <message>
@@ -1565,7 +1565,7 @@ Adres: %4
     <message>
         <location filename="../signverifymessagedialog.cpp" line="+27"/>
         <location line="+3"/>
-        <source>Enter a Fastcoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
+        <source>Enter a Shiacoin address (e.g. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</source>
         <translation>Vul een Fastcoinadres in (bijv. Ler4HNAEfwYhBmGXcFP2Po1NpRUEiK8km2)</translation>
     </message>
     <message>
@@ -1575,8 +1575,8 @@ Adres: %4
     </message>
     <message>
         <location line="+3"/>
-        <source>Enter Fastcoin signature</source>
-        <translation>Voer Fastcoin-handtekening in</translation>
+        <source>Enter Shiacoin signature</source>
+        <translation>Voer Shiacoin-handtekening in</translation>
     </message>
     <message>
         <location line="+82"/>
@@ -1649,8 +1649,8 @@ Adres: %4
     <name>SplashScreen</name>
     <message>
         <location filename="../splashscreen.cpp" line="+22"/>
-        <source>The Fastcoin developers</source>
-        <translation>De Fastcoin-ontwikkelaars</translation>
+        <source>The Shiacoin developers</source>
+        <translation>De Shiacoin-ontwikkelaars</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2187,7 +2187,7 @@ Adres: %4
     <name>bitcoin-core</name>
     <message>
         <location filename="../bitcoinstrings.cpp" line="+94"/>
-        <source>Fastcoin version</source>
+        <source>Shiacoin version</source>
         <translation>Fastcoinversie</translation>
     </message>
     <message>
@@ -2217,8 +2217,8 @@ Adres: %4
     </message>
     <message>
         <location line="+24"/>
-        <source>Specify configuration file (default: fastcoin.conf)</source>
-        <translation>Specificeer configuratiebestand (standaard: fastcoin.conf)
+        <source>Specify configuration file (default: Shiacoin.conf)</source>
+        <translation>Specificeer configuratiebestand (standaard: Shiacoin.conf)
 </translation>
     </message>
     <message>
@@ -2308,7 +2308,7 @@ rpcpassword=%s
 The username and password MUST NOT be the same.
 If the file does not exist, create it with owner-readable-only file permissions.
 It is also recommended to set alertnotify so you are notified of problems;
-for example: alertnotify=echo %%s | mail -s &quot;Fastcoin Alert&quot; admin@foo.com
+for example: alertnotify=echo %%s | mail -s &quot;Shiacoin Alert&quot; admin@foo.com
 </source>
         <translation>%s, u moet een RPC-wachtwoord instellen in het configuratiebestand: %s
 U wordt aangeraden het volgende willekeurige wachtwoord te gebruiken:
@@ -2318,7 +2318,7 @@ rpcpassword=%s
 De gebruikersnaam en wachtwoord mogen niet hetzelfde zijn.
 Als het bestand niet bestaat, make hem dan aan met leesrechten voor enkel de eigenaar.
 Het is ook aan te bevelen &quot;alertnotify&quot; in te stellen zodat u op de hoogte gesteld wordt van problemen;
-for example: alertnotify=echo %%s | mail -s &quot;Fastcoin Alert&quot; admin@foo.com</translation>
+for example: alertnotify=echo %%s | mail -s &quot;Shiacoin Alert&quot; admin@foo.com</translation>
     </message>
     <message>
         <location line="+17"/>
@@ -2332,8 +2332,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Fastcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Cannot obtain a lock on data directory %s. Fastcoin is probably already running.</source>
-        <translation>Kan geen lock op de datamap %s verkrijgen. Fastcoin draait vermoedelijk reeds.</translation>
+        <source>Cannot obtain a lock on data directory %s. Shiacoin is probably already running.</source>
+        <translation>Kan geen lock op de datamap %s verkrijgen. Shiacoin draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2377,8 +2377,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Fastcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+3"/>
-        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Fastcoin will not work properly.</source>
-        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Fastcoin niet correct werken.</translation>
+        <source>Warning: Please check that your computer&apos;s date and time are correct! If your clock is wrong Shiacoin will not work properly.</source>
+        <translation>Waarschuwing: Controleer dat de datum en tijd op uw computer correct zijn ingesteld. Als uw klok fout staat zal Shiacoin niet correct werken.</translation>
     </message>
     <message>
         <location line="+3"/>
@@ -2627,8 +2627,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Fastcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+5"/>
-        <source>SSL options: (see the Fastcoin Wiki for SSL setup instructions)</source>
-        <translation>SSL-opties: (zie de Fastcoin wiki voor SSL-instructies)</translation>
+        <source>SSL options: (see the Shiacoin Wiki for SSL setup instructions)</source>
+        <translation>SSL-opties: (zie de Shiacoin wiki voor SSL-instructies)</translation>
     </message>
     <message>
         <location line="+1"/>
@@ -2817,13 +2817,13 @@ for example: alertnotify=echo %%s | mail -s &quot;Fastcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="+1"/>
-        <source>Error loading wallet.dat: Wallet requires newer version of Fastcoin</source>
-        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Fastcoin</translation>
+        <source>Error loading wallet.dat: Wallet requires newer version of Shiacoin</source>
+        <translation>Fout bij laden wallet.dat: Portemonnee vereist een nieuwere versie van Shiacoin</translation>
     </message>
     <message>
         <location line="+93"/>
-        <source>Wallet needed to be rewritten: restart Fastcoin to complete</source>
-        <translation>Portemonnee moest herschreven worden: Herstart Fastcoin om te voltooien</translation>
+        <source>Wallet needed to be rewritten: restart Shiacoin to complete</source>
+        <translation>Portemonnee moest herschreven worden: Herstart Shiacoin om te voltooien</translation>
     </message>
     <message>
         <location line="-95"/>
@@ -2882,8 +2882,8 @@ for example: alertnotify=echo %%s | mail -s &quot;Fastcoin Alert&quot; admin@foo
     </message>
     <message>
         <location line="-25"/>
-        <source>Unable to bind to %s on this computer. Fastcoin is probably already running.</source>
-        <translation>Niet in staat om aan %s te binden op deze computer. Fastcoin draait vermoedelijk reeds.</translation>
+        <source>Unable to bind to %s on this computer. Shiacoin is probably already running.</source>
+        <translation>Niet in staat om aan %s te binden op deze computer. Shiacoin draait vermoedelijk reeds.</translation>
     </message>
     <message>
         <location line="+64"/>

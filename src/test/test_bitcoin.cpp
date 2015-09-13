@@ -1,4 +1,4 @@
-#define BOOST_TEST_MODULE Fastcoin Test Suite
+#define BOOST_TEST_MODULE Shiacoin Test Suite
 #include <boost/test/unit_test.hpp>
 #include <boost/filesystem.hpp>
 

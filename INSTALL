@@ -1,9 +1,9 @@
-Building Fastcoin
+Building Shiacoin
 
-See doc/readme-qt.rst for instructions on building Fastcoin-Qt,
+See doc/readme-qt.rst for instructions on building Shiacoin-Qt,
 the intended-for-end-users, nice-graphical-interface, reference
-implementation of Fastcoin.
+implementation of Shiacoin.
 
 See doc/build-*.txt for instructions on building fastcoind,
 the intended-for-services, no-graphical-interface, reference
-implementation of Fastcoin.
+implementation of Shiacoin.
