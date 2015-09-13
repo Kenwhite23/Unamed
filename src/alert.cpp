@@ -1,13 +1,16 @@
 //
 // Alert system
 //
+BOOST_LIB_SUFFIX=-mgw49-mt-s-1_55
+BOOST_INCLUDE_PATH=C:/deps/boost_1_55_0
+BOOST_LIB_PATH=C:/deps/boost_1_55_0/stage/lib
 
 #include <algorithm>
+#include 
 #include <boost/algorithm/string/classification.hpp>
 #include <boost/algorithm/string/replace.hpp>
 #include <boost/foreach.hpp>
 #include <map>
-
 #include "alert.h"
 #include "key.h"
 #include "net.h"
